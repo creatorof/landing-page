@@ -1,0 +1,183 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .home, .footer{
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .logo{
+    width: 180px;
+    margin-left: 30px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 40px;
+}
+
+
+.navigation ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navigation ul li{
+    list-style: none;
+    padding: 20px;
+}
+
+.navigation ul li a{
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
+.navigation ul li a:hover{
+    background-color: #E5E7EB;
+    padding: 15px;
+    color: #1F2937;
+}
+
+
+.home{
+    padding: 40px 50px 100px 50px;
+    display: flex;
+
+}
+
+.home .description{
+    flex: 1;
+    padding-right: 40px;
+
+}
+
+.home .description h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.home .description p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.home .img-interior{
+    max-width: 600px;
+    max-height: 300px;
+    flex: 1;
+}
+
+.menu-list{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 140px;
+}
+
+.menu-list h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    padding-bottom: 40px;
+}
+
+.menu-items{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    text-align: center;
+}
+
+
+.menu-item{
+    width: 200px;
+    height: 200px;
+    border: 5px #3882F6 solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.menu-item img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.menu-item p{
+    color: #1F2937;
+}
+
+.testimonials{
+    color: #1F2937;
+    background-color: #E5E7EB;
+    padding-top:150px;
+    padding-bottom: 150px;
+    font-style: italic;
+}
+
+.testimonials blockquote{
+    font-weight: 300;
+    padding-left:60px;
+    padding-right: 60px;
+    font-size: 36px;
+}
+.reservation{
+    display: flex;
+    flex-direction: row;
+    margin: 80px 50px 80px 50px;
+    padding: 30px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.reservation p{
+    color: #E5E7EB;
+}
+
+.footer{
+    padding: 30px 0px 30px 0px;
+    color: #E5E7EB;
+    text-align: center;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin-top:10px;
+}
+
+.reserve-btn-bottom{
+    border: 2px #E5E7EB solid;
+}
